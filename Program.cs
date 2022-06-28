@@ -30,7 +30,7 @@ namespace PruebaParcial2022
                     }
                     else
                     {
-                        Console.WriteLine("Los valores Ingresados no son validossss");
+                        Console.WriteLine("Los valores Ingresados no son validos");
                     }
                 }
             }
