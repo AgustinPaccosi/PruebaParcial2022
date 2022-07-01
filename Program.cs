@@ -24,7 +24,7 @@ namespace PruebaParcial2022
                 }
                 else
                 {
-                    if (Verifica(horas, minutos, segundos) && Horario24(parte))
+                    if (Verifica(horas, minutos, segundos) && Horario24(parte)==false)
                     {
                         Console.WriteLine($"Se muestra el Horario {horas}:{minutos}:{segundos} {parte}");
                     }
