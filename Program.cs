@@ -22,14 +22,14 @@ namespace PruebaParcial2022
                     Console.WriteLine($"Se muestra el Horario formato 12: {Verificanum(horas,minutos,segundos)}  {parte}");
                     horas = horas + 12;
                     //Console.WriteLine($"Se muestra el Horario formato 24: {horas}:{minutos}:{segundos} {parte}");
-                    Console.WriteLine($"El horario Formato 24 es tambien: {Verificanum(horas,minutos,segundos)}  ");
+                    Console.WriteLine($"El horario Formato 24 es tambien: {Verificanum(horas,minutos,segundos)}.  ");
                 }
                 else
                 {
                     if (Verifica(horas, minutos, segundos))
                     {
                         Console.WriteLine($"Se muestra el Horario formato 12: {Verificanum(horas,minutos,segundos)} {parte}");
-                        Console.WriteLine($"Se muestra el Horario formato 24: {Verificanum(horas,minutos,segundos)} ");
+                        Console.WriteLine($"Se muestra el Horario formato 24: {Verificanum(horas,minutos,segundos)}. ");
                     }
                     else
                     {
